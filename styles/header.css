@@ -20,24 +20,31 @@
 .container-imagem{
     padding: 1em;
 }
-
 .lista-menu{
-   display:none ;
-   position: absolute; 
-   top: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
 }
-
-.container-botao:checked~.lista-menu{
+.container-botao:checked ~ .lista-menu{
     display: block;
-} 
-
-.listam-menu-titulo,.lista-item{
+}
+.lista-menu-titulo,.lista-item{
     padding: 1em;
     background-color: var(--branco);
-
 }
-
 .lista-menu-titulo{
-    color: var(--laranja) ;
-
+    color: var(--laranja);
+    font-weight: 700;
+}
+.lista-menu-link{
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  
+}
+.container-botao{
+    display: none;
 }
