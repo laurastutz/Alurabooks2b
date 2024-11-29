@@ -36,7 +36,7 @@
     margin: 1em;
     padding: 1em;
 }
-.discricao-titulo{
+.descricao-titulo{
     color: var(--laranja);
     font-weight: 700;
 }
@@ -57,5 +57,5 @@
     padding: 1em 2.2em;
     color: var(--branco);
     font-weight: 700;
-    text-decoration:none ;
+    text-decoration: none;
 }
